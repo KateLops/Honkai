@@ -1,0 +1,79 @@
+/* Настройка главного блока с валькириями */
+
+.ValkyrieTab{
+    width: 100%;                                /* Ширина всего блока */
+    height: 5400px;                             /* Высота всего блока */
+    margin-top: 20px;                           /* Отступ от быстрой навигации */
+    background-color: aliceblue;              /* Цвет фона всего блока */
+    border: 3px solid #7ad4ef;                /* Размер, цвет и вид рамки всего блока */
+    border-radius: 10px;                        /* Радиус скругления краёв всего блока */
+}
+
+/* Настройка текста главного блока */
+
+h1, h2{
+    width: 100%;                                /* Ширина текста */
+    text-align: center;                         /* Расположение центра */
+    color: #1a75d3;                           /* Цвет текста */
+}
+
+
+
+.All{
+    margin: auto;
+    width: 90%;
+    height: 97%;
+    background-color: white;
+    border: 3px solid #7ad4ef;
+    border-radius: 12px;
+    box-shadow: 5px 5px 1px #7ad4ef;
+}
+
+/* Настройка рядов */
+
+.Seele, .Sushang, .Kiana, .Mei, .Bronya, .Himeko, .Yae, .Theresa, .Hua, .Kallen, .Rita, .Liliya, .Rozaliya, .Durandal, .Asuka, .Fischl, .Elysia, .Mobius, .Natasha, .Carole, .Pardofelis, .Aponia, .Eden, .Griseo, .Vill-V {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+
+.icon {
+    width: 113px;
+    height: 140px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px #7ad4ef;
+    transform: skew(-15deg);
+    transition: 0.5s;
+}
+
+.icon:hover{
+    background-color:#1a75d3;
+    box-shadow: 5px 5px 1px #1a75d3;
+}
+
+.ValkyrieBackground{
+    position: absolute;
+    opacity: 1;
+}
+
+.ValkyrieImage{
+    position: absolute;
+    opacity: 1;
+}
+
+.ValkyrieName{
+    font-weight: bold;
+    width: 100%;
+    color: #7ad4ef;
+    text-align: center;
+    margin: 120px 0 0 0;
+    height: 20px;
+    position: absolute;
+}
+
+.Double{
+    height: 165px;
+}

@@ -32,8 +32,14 @@ h1, h2{
 /* Настройка рядов */
 
 .Seele, .Sushang, .Kiana, .Mei, .Bronya, .Himeko, .Yae, .Theresa, .Hua, .Kallen, .Rita, .Liliya, .Rozaliya, .Durandal, .Asuka, .Fischl, .Elysia, .Mobius, .Natasha, .Carole, .Pardofelis, .Aponia, .Eden, .Griseo, .Vill-V {
-    width: 100%;
+    background-color: white;
+    width: 95%;
+    height: 200px;
+    margin: auto;
     margin-top: 50px;
+    padding-top: 80px;
+    border: 5px solid #7ad4ef;
+    border-radius: 12px;
     justify-content: space-evenly;
     display: flex;
     
